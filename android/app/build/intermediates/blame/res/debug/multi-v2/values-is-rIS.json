@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/PoonamP/Documents/developer/appcenter/hot-code-reloading-mas/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml",
+            "outputFile": "/Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml",
             "map": [
                 {
-                    "source": "/Users/PoonamP/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/82f3b73a76bbf294f99bfa4847f25a97/res/values-is-rIS/values-is-rIS.xml",
+                    "source": "/Users/poonampandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/c8c0fc8c1ba0524dc25f26fedc48ae03/res/values-is-rIS/values-is-rIS.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -4,7 +4,17 @@
 .expo/
 
 # dependencies
-/node_modules
+node_modules/
+android/app/build
+
+android/*iml
+
+android/build/
+android/.idea
+android/.gradle
+*.iml
+android/local.properties
+.DS_Store
 
 # misc
 .env.local

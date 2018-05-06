@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03274FEA8ECB7E7C735853883973AD12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		149D4018A9459A401F23C790D0AD450F /* Pods-LiteSmile-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD47E871A5A9BC7EB9BE1113CEC0315 /* Pods-LiteSmile-tvOSTests-dummy.m */; };
+		320E7A8105D47DDA0015710AF20A4161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		32C48F621E99BB97B46451386B470E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		990380BBB24F58EEFE963E19ACAD4731 /* Pods-LiteSmileTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7AADC4CDE4988D55EAA874B1CD3302 /* Pods-LiteSmileTests-dummy.m */; };
+		A569F92566060BFEB4BE0A4458C96ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		CAB9AB6AD5FD11C8344B2A99D3E8A118 /* Pods-LiteSmile-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8792A5DD7942BB9FE4F18386843F4B94 /* Pods-LiteSmile-tvOS-dummy.m */; };
+		EC649DA26F83E3F6E58146D591489BD2 /* Pods-LiteSmile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A004D083EF3963829FA111306D78D862 /* Pods-LiteSmile-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6030F561946C0843D5A568D7BE3E055B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA79699BB0332D0AC560E700D62B046;
+			remoteInfo = "Pods-LiteSmile-tvOS";
+		};
+		BF791054F20717E7A4E24CE673ACA093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AD983865A81DA54977994C3AC3C8CB;
+			remoteInfo = "Pods-LiteSmile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A19B673FA10074B3D6D282E87A9A033 /* Pods-LiteSmile-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		0D4339FEFB99B28E317113379125A6A5 /* libPods-LiteSmile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LiteSmile.a"; path = "libPods-LiteSmile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		26E246FCF6C21D9FB536E59338393639 /* libPods-LiteSmile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LiteSmile-tvOSTests.a"; path = "libPods-LiteSmile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		354D68C08DBCBA592B3C0CAC7F06B07C /* Pods-LiteSmileTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmileTests-frameworks.sh"; sourceTree = "<group>"; };
+		35B232A1B9D5DB363C057DBE01526DB6 /* Pods-LiteSmile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3E865847EF995B44EC9195483850D6BE /* Pods-LiteSmile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		446B4A3F2986855E512A02CAFCD11AA2 /* Pods-LiteSmile-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-tvOS-resources.sh"; sourceTree = "<group>"; };
+		49C51AA2B33F311EB3DCBF236DB48C82 /* Pods-LiteSmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		506E691AB5A1CD8965143CD6BFD0ECE1 /* Pods-LiteSmile-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiteSmile-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		688B5F1A8064B853261CC39D3C49B2A8 /* Pods-LiteSmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmileTests.release.xcconfig"; sourceTree = "<group>"; };
+		697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		7245BF6179C66BE6BB0BE887F2DF015F /* Pods-LiteSmile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		74008FE14D8E5A6C039E8D9A9D743977 /* Pods-LiteSmileTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiteSmileTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80D41D053218BBBE4311A001342EBE67 /* Pods-LiteSmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile.release.xcconfig"; sourceTree = "<group>"; };
+		8792A5DD7942BB9FE4F18386843F4B94 /* Pods-LiteSmile-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiteSmile-tvOS-dummy.m"; sourceTree = "<group>"; };
+		8850799A34A4749E839FFECE41BC5D3D /* Pods-LiteSmile-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C7AADC4CDE4988D55EAA874B1CD3302 /* Pods-LiteSmileTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiteSmileTests-dummy.m"; sourceTree = "<group>"; };
+		9E8562C4047183C6A8F0DF151DBA5716 /* libPods-LiteSmile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LiteSmile-tvOS.a"; path = "libPods-LiteSmile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A004D083EF3963829FA111306D78D862 /* Pods-LiteSmile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiteSmile-dummy.m"; sourceTree = "<group>"; };
+		A3AE040DE903F08E87E4161B2373627F /* Pods-LiteSmile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-resources.sh"; sourceTree = "<group>"; };
+		A544B9A0FAD3DDC360DB2ECA964DACE0 /* Pods-LiteSmileTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmileTests-resources.sh"; sourceTree = "<group>"; };
+		A5B09628C79413C9AE63465702599CE0 /* Pods-LiteSmile-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		A77F9FAB1C77590424DD8A16686561BE /* Pods-LiteSmile-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiteSmile-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABD47E871A5A9BC7EB9BE1113CEC0315 /* Pods-LiteSmile-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiteSmile-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		B02120598EC877478BAD72FC3BB6552E /* libPods-LiteSmileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LiteSmileTests.a"; path = "libPods-LiteSmileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8669875A0C03A2E9CE5F7C5F47E4D0D /* Pods-LiteSmile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiteSmile-frameworks.sh"; sourceTree = "<group>"; };
+		C35B89C2998F343FF7D0A67491C23709 /* Pods-LiteSmile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiteSmile-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4D4CCA144AFDC626C20C4580B8B4BB0 /* Pods-LiteSmile-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiteSmile-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5EAC0EE975F04CDEA3BEE8C8CF79B34 /* Pods-LiteSmile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiteSmile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D95D442CCE6D2E871C7711A67E7C73BA /* Pods-LiteSmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile.debug.xcconfig"; sourceTree = "<group>"; };
+		DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		E69C2D937A5DEA4B5B4739CC6952F112 /* Pods-LiteSmileTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiteSmileTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F30B24C857F4B816410A134B578A1EA8 /* Pods-LiteSmile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiteSmile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B34BCBB3637A916765CB8BDFC03D55 /* Pods-LiteSmile-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiteSmile-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268DAC228BBC8D4BBE0F3F374594DDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03274FEA8ECB7E7C735853883973AD12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6343CA424EF8D5D184C859C56D2A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C48F621E99BB97B46451386B470E26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95EAF11549A09D4EA7D90D288DCF22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320E7A8105D47DDA0015710AF20A4161 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A0964D2330FEBE2F39FF8332D34944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A569F92566060BFEB4BE0A4458C96ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CA1061371CBF75F950AE13FEAD1087 /* Pods-LiteSmile-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D4CCA144AFDC626C20C4580B8B4BB0 /* Pods-LiteSmile-tvOSTests-acknowledgements.markdown */,
+				506E691AB5A1CD8965143CD6BFD0ECE1 /* Pods-LiteSmile-tvOSTests-acknowledgements.plist */,
+				ABD47E871A5A9BC7EB9BE1113CEC0315 /* Pods-LiteSmile-tvOSTests-dummy.m */,
+				8850799A34A4749E839FFECE41BC5D3D /* Pods-LiteSmile-tvOSTests-frameworks.sh */,
+				0A19B673FA10074B3D6D282E87A9A033 /* Pods-LiteSmile-tvOSTests-resources.sh */,
+				F30B24C857F4B816410A134B578A1EA8 /* Pods-LiteSmile-tvOSTests.debug.xcconfig */,
+				3E865847EF995B44EC9195483850D6BE /* Pods-LiteSmile-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-LiteSmile-tvOSTests";
+			path = "Target Support Files/Pods-LiteSmile-tvOSTests";
+			sourceTree = "<group>";
+		};
+		0C0416FA3744ECAB6C76E95960896084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				4789B2888C9F3A64D9BB98A64504484B /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		23E6BE7F7C3A7EDC0CBC6F23335DC57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4339FEFB99B28E317113379125A6A5 /* libPods-LiteSmile.a */,
+				9E8562C4047183C6A8F0DF151DBA5716 /* libPods-LiteSmile-tvOS.a */,
+				26E246FCF6C21D9FB536E59338393639 /* libPods-LiteSmile-tvOSTests.a */,
+				B02120598EC877478BAD72FC3BB6552E /* libPods-LiteSmileTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		2D20FC01AE47C04E62202F456C8DC21D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0C0416FA3744ECAB6C76E95960896084 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4544D1D24341B45039EE1EE96D5808E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD8C2835A00C392E55F6C97CC7D234 /* Pods-LiteSmile */,
+				D7D704C9F0E40B7A2F9471095B093C49 /* Pods-LiteSmile-tvOS */,
+				00CA1061371CBF75F950AE13FEAD1087 /* Pods-LiteSmile-tvOSTests */,
+				CFE919069B940849720D05110877E4AF /* Pods-LiteSmileTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4789B2888C9F3A64D9BB98A64504484B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */,
+				23E6BE7F7C3A7EDC0CBC6F23335DC57F /* Products */,
+				4544D1D24341B45039EE1EE96D5808E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */,
+				FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFE919069B940849720D05110877E4AF /* Pods-LiteSmileTests */ = {
+			isa = PBXGroup;
+			children = (
+				74008FE14D8E5A6C039E8D9A9D743977 /* Pods-LiteSmileTests-acknowledgements.markdown */,
+				E69C2D937A5DEA4B5B4739CC6952F112 /* Pods-LiteSmileTests-acknowledgements.plist */,
+				9C7AADC4CDE4988D55EAA874B1CD3302 /* Pods-LiteSmileTests-dummy.m */,
+				354D68C08DBCBA592B3C0CAC7F06B07C /* Pods-LiteSmileTests-frameworks.sh */,
+				A544B9A0FAD3DDC360DB2ECA964DACE0 /* Pods-LiteSmileTests-resources.sh */,
+				49C51AA2B33F311EB3DCBF236DB48C82 /* Pods-LiteSmileTests.debug.xcconfig */,
+				688B5F1A8064B853261CC39D3C49B2A8 /* Pods-LiteSmileTests.release.xcconfig */,
+			);
+			name = "Pods-LiteSmileTests";
+			path = "Target Support Files/Pods-LiteSmileTests";
+			sourceTree = "<group>";
+		};
+		D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */,
+				2D20FC01AE47C04E62202F456C8DC21D /* Core */,
+				2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		D7D704C9F0E40B7A2F9471095B093C49 /* Pods-LiteSmile-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A77F9FAB1C77590424DD8A16686561BE /* Pods-LiteSmile-tvOS-acknowledgements.markdown */,
+				F4B34BCBB3637A916765CB8BDFC03D55 /* Pods-LiteSmile-tvOS-acknowledgements.plist */,
+				8792A5DD7942BB9FE4F18386843F4B94 /* Pods-LiteSmile-tvOS-dummy.m */,
+				A5B09628C79413C9AE63465702599CE0 /* Pods-LiteSmile-tvOS-frameworks.sh */,
+				446B4A3F2986855E512A02CAFCD11AA2 /* Pods-LiteSmile-tvOS-resources.sh */,
+				35B232A1B9D5DB363C057DBE01526DB6 /* Pods-LiteSmile-tvOS.debug.xcconfig */,
+				7245BF6179C66BE6BB0BE887F2DF015F /* Pods-LiteSmile-tvOS.release.xcconfig */,
+			);
+			name = "Pods-LiteSmile-tvOS";
+			path = "Target Support Files/Pods-LiteSmile-tvOS";
+			sourceTree = "<group>";
+		};
+		F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		FEDD8C2835A00C392E55F6C97CC7D234 /* Pods-LiteSmile */ = {
+			isa = PBXGroup;
+			children = (
+				D5EAC0EE975F04CDEA3BEE8C8CF79B34 /* Pods-LiteSmile-acknowledgements.markdown */,
+				C35B89C2998F343FF7D0A67491C23709 /* Pods-LiteSmile-acknowledgements.plist */,
+				A004D083EF3963829FA111306D78D862 /* Pods-LiteSmile-dummy.m */,
+				B8669875A0C03A2E9CE5F7C5F47E4D0D /* Pods-LiteSmile-frameworks.sh */,
+				A3AE040DE903F08E87E4161B2373627F /* Pods-LiteSmile-resources.sh */,
+				D95D442CCE6D2E871C7711A67E7C73BA /* Pods-LiteSmile.debug.xcconfig */,
+				80D41D053218BBBE4311A001342EBE67 /* Pods-LiteSmile.release.xcconfig */,
+			);
+			name = "Pods-LiteSmile";
+			path = "Target Support Files/Pods-LiteSmile";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA79699BB0332D0AC560E700D62B046 /* Pods-LiteSmile-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285F039DF571B86357AC5A55638B388A /* Build configuration list for PBXNativeTarget "Pods-LiteSmile-tvOS" */;
+			buildPhases = (
+				51F9FC09B989AF761B32C5CDB7AE175E /* Sources */,
+				D7A0964D2330FEBE2F39FF8332D34944 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LiteSmile-tvOS";
+			productName = "Pods-LiteSmile-tvOS";
+			productReference = 9E8562C4047183C6A8F0DF151DBA5716 /* libPods-LiteSmile-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57A4CA1A33A4A0C69291EE50A9A73B52 /* Pods-LiteSmileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C599CDC36E12CFB0ABD9B913B0AD7E1 /* Build configuration list for PBXNativeTarget "Pods-LiteSmileTests" */;
+			buildPhases = (
+				7CAA867BAAE523684FF8CA8991344F9F /* Sources */,
+				268DAC228BBC8D4BBE0F3F374594DDDD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B62E3D342232EAB11CCE15EC840DCC /* PBXTargetDependency */,
+			);
+			name = "Pods-LiteSmileTests";
+			productName = "Pods-LiteSmileTests";
+			productReference = B02120598EC877478BAD72FC3BB6552E /* libPods-LiteSmileTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58AD983865A81DA54977994C3AC3C8CB /* Pods-LiteSmile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C93448862DB3A42B30CC6E6C1C5B5C6 /* Build configuration list for PBXNativeTarget "Pods-LiteSmile" */;
+			buildPhases = (
+				9F7C0F8326256D10461A53CF16A78DFC /* Sources */,
+				8F6343CA424EF8D5D184C859C56D2A04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LiteSmile";
+			productName = "Pods-LiteSmile";
+			productReference = 0D4339FEFB99B28E317113379125A6A5 /* libPods-LiteSmile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94973254732FA80F26716DB6025DF5F2 /* Pods-LiteSmile-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1982F9E813C1F9391CCE551651D5D4E /* Build configuration list for PBXNativeTarget "Pods-LiteSmile-tvOSTests" */;
+			buildPhases = (
+				18A979B5B1F3FD2D52532E86441F627B /* Sources */,
+				A95EAF11549A09D4EA7D90D288DCF22B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87EF700A509DE94041B8DF392EF35E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiteSmile-tvOSTests";
+			productName = "Pods-LiteSmile-tvOSTests";
+			productReference = 26E246FCF6C21D9FB536E59338393639 /* libPods-LiteSmile-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 23E6BE7F7C3A7EDC0CBC6F23335DC57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AD983865A81DA54977994C3AC3C8CB /* Pods-LiteSmile */,
+				3FA79699BB0332D0AC560E700D62B046 /* Pods-LiteSmile-tvOS */,
+				94973254732FA80F26716DB6025DF5F2 /* Pods-LiteSmile-tvOSTests */,
+				57A4CA1A33A4A0C69291EE50A9A73B52 /* Pods-LiteSmileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A979B5B1F3FD2D52532E86441F627B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149D4018A9459A401F23C790D0AD450F /* Pods-LiteSmile-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F9FC09B989AF761B32C5CDB7AE175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB9AB6AD5FD11C8344B2A99D3E8A118 /* Pods-LiteSmile-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA867BAAE523684FF8CA8991344F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990380BBB24F58EEFE963E19ACAD4731 /* Pods-LiteSmileTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7C0F8326256D10461A53CF16A78DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC649DA26F83E3F6E58146D591489BD2 /* Pods-LiteSmile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B62E3D342232EAB11CCE15EC840DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiteSmile";
+			target = 58AD983865A81DA54977994C3AC3C8CB /* Pods-LiteSmile */;
+			targetProxy = BF791054F20717E7A4E24CE673ACA093 /* PBXContainerItemProxy */;
+		};
+		C87EF700A509DE94041B8DF392EF35E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiteSmile-tvOS";
+			target = 3FA79699BB0332D0AC560E700D62B046 /* Pods-LiteSmile-tvOS */;
+			targetProxy = 6030F561946C0843D5A568D7BE3E055B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023EBA4D82C39415DF3956D13F3EE79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30B24C857F4B816410A134B578A1EA8 /* Pods-LiteSmile-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		26388DA30974329833CF707741044AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688B5F1A8064B853261CC39D3C49B2A8 /* Pods-LiteSmileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267AF297B6C6D788F1C40EBB4CA19C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E865847EF995B44EC9195483850D6BE /* Pods-LiteSmile-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EEA9068AB8642CFA297EA1FDCFEE618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7245BF6179C66BE6BB0BE887F2DF015F /* Pods-LiteSmile-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415B16108595196D528C2241D14B7C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B232A1B9D5DB363C057DBE01526DB6 /* Pods-LiteSmile-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		6C2380023F2D7C451872E45689AD9236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95D442CCE6D2E871C7711A67E7C73BA /* Pods-LiteSmile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78CCF2F8575642B0F9526268F670DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		A16BED0899B5F54AD26AE7C226150170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D41D053218BBBE4311A001342EBE67 /* Pods-LiteSmile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBAD5367D3BD9B56F1719DD8C3A338C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C51AA2B33F311EB3DCBF236DB48C82 /* Pods-LiteSmileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C93448862DB3A42B30CC6E6C1C5B5C6 /* Build configuration list for PBXNativeTarget "Pods-LiteSmile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2380023F2D7C451872E45689AD9236 /* Debug */,
+				A16BED0899B5F54AD26AE7C226150170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285F039DF571B86357AC5A55638B388A /* Build configuration list for PBXNativeTarget "Pods-LiteSmile-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415B16108595196D528C2241D14B7C1D /* Debug */,
+				3EEA9068AB8642CFA297EA1FDCFEE618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */,
+				78CCF2F8575642B0F9526268F670DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C599CDC36E12CFB0ABD9B913B0AD7E1 /* Build configuration list for PBXNativeTarget "Pods-LiteSmileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAD5367D3BD9B56F1719DD8C3A338C1 /* Debug */,
+				26388DA30974329833CF707741044AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1982F9E813C1F9391CCE551651D5D4E /* Build configuration list for PBXNativeTarget "Pods-LiteSmile-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023EBA4D82C39415DF3956D13F3EE79D /* Debug */,
+				267AF297B6C6D788F1C40EBB4CA19C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

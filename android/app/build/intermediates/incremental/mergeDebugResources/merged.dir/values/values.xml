@@ -348,6 +348,8 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string moduleConfig="true" name="appCenterAnalytics_whenToEnableAnalytics">ENABLE_IN_JS</string>
+    <string moduleConfig="true" name="appCenterCrashes_whenToSendCrashes">ALWAYS_SEND</string>
     <string name="app_name">LiteSmile</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy</string>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
