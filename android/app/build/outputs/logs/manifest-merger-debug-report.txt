@@ -4,6 +4,7 @@ ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/h
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:1:1-27:12
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:1:1-27:12
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:appcenter-crashes] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter-crashes/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:appcenter-analytics] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter-analytics/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:appcenter] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
@@ -43,6 +44,8 @@ INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCente
 		ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
 MERGED from [com.microsoft.appcenter:appcenter:1.5.0] /Users/poonampandey/.gradle/caches/transforms-1/files-1.1/appcenter-1.5.0.aar/428e6b419a3531fa48f107a9cc134840/AndroidManifest.xml:11:5-67
 MERGED from [com.microsoft.appcenter:appcenter:1.5.0] /Users/poonampandey/.gradle/caches/transforms-1/files-1.1/appcenter-1.5.0.aar/428e6b419a3531fa48f107a9cc134840/AndroidManifest.xml:11:5-67
 	android:name
@@ -55,6 +58,8 @@ MERGED from [com.facebook.react:react-native:0.55.3] /Users/poonampandey/.gradle
 		ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-15:19
 MERGED from [com.facebook.react:react-native:0.55.3] /Users/poonampandey/.gradle/caches/transforms-1/files-1.1/react-native-0.55.3.aar/87f604163b09ac114ef8da57b900869b/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.3] /Users/poonampandey/.gradle/caches/transforms-1/files-1.1/react-native-0.55.3.aar/87f604163b09ac114ef8da57b900869b/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/poonampandey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/c8c0fc8c1ba0524dc25f26fedc48ae03/AndroidManifest.xml:22:5-20
@@ -99,6 +104,8 @@ ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/h
 		ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:23:7-84
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-86
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-86
 	android:name
 		ADDED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml:23:17-81
 activity#com.litesmile.MyReactActivity
@@ -109,6 +116,8 @@ uses-sdk
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-code-push] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/react-native-code-push/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:appcenter-crashes] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter-crashes/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:appcenter-crashes] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter-crashes/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:appcenter-analytics] /Users/poonampandey/Documents/poonam/development/MicrosoftAppCenter/hot-code-reloading-mas/node_modules/appcenter-analytics/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
