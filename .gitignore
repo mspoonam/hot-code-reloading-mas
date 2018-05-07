@@ -9,6 +9,7 @@ android/app/build
 
 android/*iml
 
+android/app/build/
 android/build/
 android/.idea
 android/.gradle
