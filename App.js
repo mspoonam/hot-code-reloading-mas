@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View,TouchableOpacity, } from 'react-native';
 import CodePush from 'react-native-code-push';
 
-// let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
+let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
 export default class App extends React.Component {
 
   // One way    
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// MyApp = codePush(codePushOptions)(MyApp);
+App = CodePush(codePushOptions)(App);
